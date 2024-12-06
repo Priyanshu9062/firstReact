@@ -1,9 +1,14 @@
 
 .user-container{
-    background-color: antiquewhite;
-    padding: 20px;
-    gap: 20px;
+    background-color: rgb(92, 129, 230);
+    padding: 20px;    
     color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 1rem;
 }
 
 #user-img{

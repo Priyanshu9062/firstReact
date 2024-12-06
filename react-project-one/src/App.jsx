@@ -1,15 +1,18 @@
 import UserCard from "./components/UserCard"
+import isagi from "./assets/isagi.jpg"
+import nagi from "./assets/nagi.jpg"
+import rin from "./assets/rin.jpg"
 import './App.css'
 function App() {
   
 
   return (
     <div className="container">
-      <UserCard />
+      <UserCard name="ISAGI" description ="egoist"  image={isagi}/>
 
-      <UserCard />
+      <UserCard name="NAGI" description ="lazy" image={nagi}/>
       
-      <UserCard />
+      <UserCard name="ITOSHI RIN" description ="revenge"image={rin} />
     </div>
   )
 }

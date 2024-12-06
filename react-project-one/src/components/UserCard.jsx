@@ -1,12 +1,12 @@
 import React from 'react'
 import snap from '../assets/snap.jpg'
 import "./UserCard.css"
-const UserCard = () => {
+const UserCard = (props) => {
   return (
     <div className='user-container'>
-      <p id='user-name'>Priyanshu Biswas</p>
-      <img id='user-img' src={snap} alt="priyanshu" />
-      <p id='user-desc'>This is Priyanshu Biswas</p>
+      <p id='user-name'>{props.name}</p>
+      <img id='user-img' src={props.image} />
+      <p id='user-desc'> {props.description}</p>
     </div>
   )
 }
