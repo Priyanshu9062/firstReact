@@ -8,11 +8,11 @@ function App() {
 
   return (
     <div className="container">
-      <UserCard name="ISAGI" description ="egoist"  image={isagi}/>
+      <UserCard name="ISAGI" description ="egoist"  image={isagi} style = {{"border-radius":"10px"}}/>
 
-      <UserCard name="NAGI" description ="lazy" image={nagi}/>
+      <UserCard name="NAGI" description ="lazy" image={nagi} style = {{"border-radius":"10px"}}/>
       
-      <UserCard name="ITOSHI RIN" description ="revenge"image={rin} />
+      <UserCard name="ITOSHI RIN" description ="revenge"image={rin} style = {{"border-radius":"10px"}} />
     </div>
   )
 }
