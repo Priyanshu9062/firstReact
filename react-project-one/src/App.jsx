@@ -15,7 +15,7 @@ function App() {
       
       <UserCard name="ITOSHI RIN" description ="revenge"image={rin} style = {{"border-radius":"10px"}} />
 
-      <UserCard name="ITOSHI SAE" description ="prodigy"image={sae} style = {{"border-radius":"10px"}} />
+      <UserCard name="ITOSHI " description ="prodigy"image={sae} style = {{"border-radius":"10px"}} />
     </div>
   )
 }
